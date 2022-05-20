@@ -50,6 +50,7 @@ class TodoRecyclerViewAdapter(val mContext : Context, val mList : List<TodoData>
                     todoTxt.paintFlags = 0
                 }
             }
+            
         }
     }
 }

@@ -3,7 +3,9 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/NePPPlus_Teacher_01/AndroidStudioProjects/20220520_ToDoList_RecyclerVIew/app/src/main/res/layout/activity_detail_todo.xml" value="0.36614583333333334" />
         <entry key="..\:/Users/NePPPlus_Teacher_01/AndroidStudioProjects/20220520_ToDoList_RecyclerVIew/app/src/main/res/layout/activity_main.xml" value="0.2873030583873957" />
+        <entry key="..\:/Users/NePPPlus_Teacher_01/AndroidStudioProjects/20220520_ToDoList_RecyclerVIew/app/src/main/res/layout/activity_main2.xml" value="0.36614583333333334" />
         <entry key="..\:/Users/NePPPlus_Teacher_01/AndroidStudioProjects/20220520_ToDoList_RecyclerVIew/app/src/main/res/layout/fragment_goal.xml" value="0.36614583333333334" />
         <entry key="..\:/Users/NePPPlus_Teacher_01/AndroidStudioProjects/20220520_ToDoList_RecyclerVIew/app/src/main/res/layout/fragment_setting.xml" value="0.36614583333333334" />
         <entry key="..\:/Users/NePPPlus_Teacher_01/AndroidStudioProjects/20220520_ToDoList_RecyclerVIew/app/src/main/res/layout/fragment_todo.xml" value="0.36614583333333334" />
