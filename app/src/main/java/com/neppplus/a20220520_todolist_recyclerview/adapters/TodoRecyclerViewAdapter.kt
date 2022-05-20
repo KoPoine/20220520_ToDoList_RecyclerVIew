@@ -1,6 +1,7 @@
 package com.neppplus.a20220520_todolist_recyclerview.adapters
 
 import android.content.Context
+import android.content.Intent
 import android.graphics.Paint
 import android.view.LayoutInflater
 import android.view.View
@@ -9,6 +10,7 @@ import android.widget.CheckBox
 import android.widget.RatingBar
 import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
+import com.neppplus.a20220520_todolist_recyclerview.DetailTodoActivity
 import com.neppplus.a20220520_todolist_recyclerview.R
 import com.neppplus.a20220520_todolist_recyclerview.models.TodoData
 
@@ -50,7 +52,12 @@ class TodoRecyclerViewAdapter(val mContext : Context, val mList : List<TodoData>
                     todoTxt.paintFlags = 0
                 }
             }
-            
+
+            itemView.setOnClickListener {
+                val myIntent = Intent(mContext, DetailTodoActivity::class.java)
+                myIntent.putExtra("TodoData", item)
+                mContext.startActivity(myIntent)
+            }
         }
     }
 }
